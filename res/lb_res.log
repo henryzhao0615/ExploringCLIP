@@ -1,0 +1,172 @@
+/home/users/u7244940/miniconda3/envs/test/lib/python3.8/site-packages/open_clip/factory.py:388: UserWarning: These pretrained weights were trained with QuickGELU activation but the model config does not have that enabled. Consider using a model config with a "-quickgelu" suffix or enable with a flag.
+  warnings.warn(
+Files already downloaded and verified
+Files already downloaded and verified
+
+=== 1-shot experiment ===
+WD: 0.000010, Val Acc: 0.7173
+WD: 0.000028, Val Acc: 0.7115
+WD: 0.000077, Val Acc: 0.6712
+WD: 0.000215, Val Acc: 0.7320
+WD: 0.000599, Val Acc: 0.6753
+WD: 0.001668, Val Acc: 0.7006
+WD: 0.004642, Val Acc: 0.7041
+WD: 0.012915, Val Acc: 0.6751
+WD: 0.035938, Val Acc: 0.6455
+WD: 0.100000, Val Acc: 0.6875
+Best WD: 0.00021544346900318823, Val Acc: 0.7320
+Final performance on test set:
+Test Accuracy (Top-1): 0.7484
+Test Top-5 Accuracy: 0.9773
+Precision: 0.7735, Recall: 0.7484, F1: 0.7475
+Confusion Matrix:
+[[711   3  22  20   1   0  19   0 119 105]
+ [ 32 823   0  10   1   0   2  10   2 120]
+ [ 31   0 509  65  18   1 355  18   2   1]
+ [ 12   0  31 867   2  18  58  12   0   0]
+ [ 14   0 134  65 670   2  73  40   2   0]
+ [ 13   0  28 293   7 594  47  18   0   0]
+ [ 23   0  31  65   4   0 870   7   0   0]
+ [  8   0 219  56 114  36   9 556   2   0]
+ [ 42   1   0  11   2   0   0   0 933  11]
+ [ 27   2   0   7   1   0   2   7   3 951]]
+
+=== 2-shot experiment ===
+WD: 0.000010, Val Acc: 0.7850
+WD: 0.000028, Val Acc: 0.7214
+WD: 0.000077, Val Acc: 0.7550
+WD: 0.000215, Val Acc: 0.7626
+WD: 0.000599, Val Acc: 0.7742
+WD: 0.001668, Val Acc: 0.7718
+WD: 0.004642, Val Acc: 0.7499
+WD: 0.012915, Val Acc: 0.7676
+WD: 0.035938, Val Acc: 0.7515
+WD: 0.100000, Val Acc: 0.7874
+Best WD: 0.09999999999999999, Val Acc: 0.7874
+Final performance on test set:
+Test Accuracy (Top-1): 0.7837
+Test Top-5 Accuracy: 0.9817
+Precision: 0.8453, Recall: 0.7837, F1: 0.7955
+Confusion Matrix:
+[[803   0   1   3   0   2 159   1  23   8]
+ [  0 939   0   1   0   1  20   3   1  35]
+ [ 26   0 704  11   4  10 210  22  13   0]
+ [  1   0  15 613   8 104 243  15   1   0]
+ [  4   0  48   3 626   5 194 118   2   0]
+ [  0   0   1  63   4 707 133  91   1   0]
+ [  0   0  40  14   4   7 934   0   1   0]
+ [  0   0   2   2  13   6  40 935   2   0]
+ [ 40   1   0   2   2   0 198   0 749   8]
+ [  5  48   0   2   0   0  96  13   9 827]]
+
+=== 4-shot experiment ===
+WD: 0.000010, Val Acc: 0.8065
+WD: 0.000028, Val Acc: 0.7621
+WD: 0.000077, Val Acc: 0.7493
+WD: 0.000215, Val Acc: 0.7738
+WD: 0.000599, Val Acc: 0.7971
+WD: 0.001668, Val Acc: 0.7813
+WD: 0.004642, Val Acc: 0.7893
+WD: 0.012915, Val Acc: 0.7667
+WD: 0.035938, Val Acc: 0.8000
+WD: 0.100000, Val Acc: 0.7800
+Best WD: 9.999999999999999e-06, Val Acc: 0.8065
+Final performance on test set:
+Test Accuracy (Top-1): 0.8254
+Test Top-5 Accuracy: 0.9901
+Precision: 0.8323, Recall: 0.8254, F1: 0.8266
+Confusion Matrix:
+[[866   9  12   1   0   0  44   0  41  27]
+ [  6 951   0   1   0   1   6   0   2  33]
+ [ 75   0 725   8  64  32  95   1   0   0]
+ [ 13   0  21 755  16  71 120   3   0   1]
+ [ 30   0  35   5 799   9 103  18   1   0]
+ [ 10   0   2 133  25 786  37   7   0   0]
+ [ 12   0 176  12   8  15 777   0   0   0]
+ [ 17   1   0  15  69  10  10 875   2   1]
+ [ 30   5   6   0   0   0  12   0 938   9]
+ [ 12 186   0   1   1   1  12   0   5 782]]
+
+=== 8-shot experiment ===
+WD: 0.000010, Val Acc: 0.8641
+WD: 0.000028, Val Acc: 0.8589
+WD: 0.000077, Val Acc: 0.8641
+WD: 0.000215, Val Acc: 0.8663
+WD: 0.000599, Val Acc: 0.8713
+WD: 0.001668, Val Acc: 0.8779
+WD: 0.004642, Val Acc: 0.8750
+WD: 0.012915, Val Acc: 0.8680
+WD: 0.035938, Val Acc: 0.8696
+WD: 0.100000, Val Acc: 0.8732
+Best WD: 0.001668100537200059, Val Acc: 0.8779
+Final performance on test set:
+Test Accuracy (Top-1): 0.8739
+Test Top-5 Accuracy: 0.9875
+Precision: 0.8854, Recall: 0.8739, F1: 0.8750
+Confusion Matrix:
+[[786   2  44  36   1   1  63   1  35  31]
+ [  0 966   0   1   0   0   1   0   0  32]
+ [  2   0 727  38  64  15 152   1   1   0]
+ [  1   1   4 760  15 123  88   8   0   0]
+ [  1   1   4  23 856  11  82  20   2   0]
+ [  0   0   2  95   8 850  34  10   0   1]
+ [  0   0   5  22  13   7 953   0   0   0]
+ [  0   1   1  21  20  14  11 927   3   2]
+ [  9   3   1  14   0   0  11   0 954   8]
+ [  0  23   0   6   0   0   7   0   4 960]]
+
+=== 16-shot experiment ===
+WD: 0.000010, Val Acc: 0.9074
+WD: 0.000028, Val Acc: 0.8998
+WD: 0.000077, Val Acc: 0.9073
+WD: 0.000215, Val Acc: 0.9018
+WD: 0.000599, Val Acc: 0.9042
+WD: 0.001668, Val Acc: 0.9078
+WD: 0.004642, Val Acc: 0.9004
+WD: 0.012915, Val Acc: 0.9017
+WD: 0.035938, Val Acc: 0.9036
+WD: 0.100000, Val Acc: 0.9064
+Best WD: 0.001668100537200059, Val Acc: 0.9078
+Final performance on test set:
+Test Accuracy (Top-1): 0.9023
+Test Top-5 Accuracy: 0.9961
+Precision: 0.9056, Recall: 0.9023, F1: 0.9025
+Confusion Matrix:
+[[946   1   9   2   1   0  18   0  13  10]
+ [  3 936   0   0   0   1   1   1   2  56]
+ [ 29   0 834  22  39   8  67   0   1   0]
+ [  3   0  13 772  26  93  78  10   0   5]
+ [  8   0  15   6 896   5  57  12   1   0]
+ [  2   0  11  60  19 868  26  14   0   0]
+ [  7   0   6  33  22   5 927   0   0   0]
+ [  9   0   1   8  38   9   6 925   1   3]
+ [ 31   1   0   2   0   0  10   0 941  15]
+ [  5   9   0   3   0   0   2   0   3 978]]
+
+=== full-shot experiment ===
+WD: 0.000010, Val Acc: 0.9501
+WD: 0.000028, Val Acc: 0.9514
+WD: 0.000077, Val Acc: 0.9503
+WD: 0.000215, Val Acc: 0.9498
+WD: 0.000599, Val Acc: 0.9494
+WD: 0.001668, Val Acc: 0.9508
+WD: 0.004642, Val Acc: 0.9495
+WD: 0.012915, Val Acc: 0.9512
+WD: 0.035938, Val Acc: 0.9491
+WD: 0.100000, Val Acc: 0.9500
+Best WD: 2.7825594022071256e-05, Val Acc: 0.9514
+Final performance on test set:
+Test Accuracy (Top-1): 0.9451
+Test Top-5 Accuracy: 0.9987
+Precision: 0.9455, Recall: 0.9451, F1: 0.9452
+Confusion Matrix:
+[[971   2   4   3   0   0   0   0  14   6]
+ [  4 973   0   0   0   2   1   0   4  16]
+ [ 13   0 917  17  29   7  14   3   0   0]
+ [  0   0   6 910  10  53  14   4   2   1]
+ [  3   1  12  12 937   9  13  12   0   1]
+ [  5   1   6  60  11 910   4   3   0   0]
+ [  5   1  15  26  15   4 934   0   0   0]
+ [  3   1   2   9  19  10   0 956   0   0]
+ [ 22   1   1   0   0   0   0   1 971   4]
+ [  2  19   0   1   0   0   0   1   5 972]]
