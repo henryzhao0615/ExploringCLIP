@@ -9,6 +9,8 @@ from sklearn.metrics import precision_score, recall_score, f1_score, confusion_m
 import copy
 import os
 import matplotlib.pyplot as plt
+from utils import *
+set_seed(42)
 
 device = "cuda" if torch.cuda.is_available() else "cpu"
 
