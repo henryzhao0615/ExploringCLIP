@@ -1,6 +1,6 @@
 # Vision-Language Learning Methods
 
-This repository contains implementations for various vision-language learning methods. It includes scripts for zero-shot classification, linear probing, and Cooperative Prompting (CoOP) as introduced in the paper *[Learning to Prompt for Vision-Language Models](https://arxiv.org/abs/2109.01134)*. Additionally, there is a `visualize` folder dedicated to scripts for generating report figures.
+This repository contains implementations for various vision-language learning methods. It includes scripts for zero-shot classification, linear probing, and learnable prompts (CoOp). Additionally, there is a `visualize` folder dedicated to scripts for generating report figures.
 
 ## Scripts
 
@@ -44,3 +44,6 @@ CUDA_VISIBLE_DEVICES=1 nohup python -u coop.py  > res/coop_res.log &
 
 ## Visualization
 The `visualize` folder contains scripts that generate the figures and charts used in the project report. Use these scripts to create visual representations of your experimental results.
+
+## Reference
+Zhou, K., Yang, J., Loy, C. C., & Liu, Z. (2022). Learning to prompt for vision-language models. International Journal of Computer Vision
